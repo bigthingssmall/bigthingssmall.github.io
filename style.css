@@ -1,0 +1,14 @@
+:root { --bg: #0A1024; --text: #F6F2EA; --dim: #B9B4C9; --lime: #9BE564; --azure: #6EA4FF; }
+* { box-sizing: border-box; }
+body { margin: 0; background: radial-gradient(ellipse at 50% 0%, #1B2350, var(--bg) 70%) fixed; color: var(--text); font-family: "Outfit", system-ui, sans-serif; line-height: 1.6; }
+main { max-width: 720px; margin: 0 auto; padding: 56px 16px 80px; }
+img.logo { width: min(420px, 90%); display: block; margin: 0 auto 24px; }
+h1 { font-size: 2rem; margin: 0 0 8px; }
+h2 { font-size: 1.25rem; margin: 32px 0 8px; }
+p, li { color: var(--dim); }
+a { color: var(--azure); }
+.tag { text-align: center; font-size: 1.4rem; font-weight: 700; color: var(--text); margin: 0 0 8px; }
+.tag span { color: var(--lime); }
+.centre { text-align: center; }
+.button { display: inline-block; margin-top: 16px; padding: 12px 24px; border-radius: 999px; background: var(--azure); color: var(--bg); font-weight: 700; text-decoration: none; }
+footer { margin-top: 56px; text-align: center; font-size: 0.9rem; }
